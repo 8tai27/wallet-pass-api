@@ -1,0 +1,48 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.ezqrin.bonenkai",
+  "serialNumber": "PLACEHOLDER",
+  "teamIdentifier": "UB98SLR8TL",
+  "organizationName": "EzQrin",
+  "description": "EzQrin Bonenkai Ticket",
+  "foregroundColor": "rgb(0, 0, 80)",
+  "backgroundColor": "rgb(255, 255, 255)",
+  "labelColor": "rgb(0, 0, 0)",
+  "eventTicket": {
+    "headerFields": [
+      {
+        "key": "date",
+        "label": "date",
+        "value": "2026/3/19"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "event",
+        "label": "event",
+        "value": "XN0_FY25 年度末忘年会"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "location",
+        "label": "location",
+        "value": "横浜赤レンガ倉庫 3F"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "address",
+        "label": "住所",
+        "value": "ブッチャーリパブリック横浜赤レンガ\n〒231-0001\n神奈川県横浜市中区新港1-1-2\n横浜赤レンガ倉庫2号館 3F"
+      }
+    ]
+  },
+  "barcodes": [
+    {
+      "message": "PLACEHOLDER",
+      "format": "PKBarcodeFormatQR",
+      "messageEncoding": "iso-8859-1"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/pass/[token].js": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  }
+}
