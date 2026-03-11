@@ -21,7 +21,7 @@ console.log("rawToken:", rawToken);
 console.log("sig:", sig);
 console.log("signedToken:", signedToken);
 console.log("encodedToken:", encodedToken);
-console.log("URL:", `http://localhost:3000/api/pass?token=${encodedToken}`);
+console.log("URL:", `http://localhost:3000/api/pass/${encodedToken}`);
 
 const pass = await PKPass.from(
   {

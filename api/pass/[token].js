@@ -62,9 +62,9 @@ export default async function handler(req, res) {
       }
     );
 
-    // rawTokenをQRに埋め込む
+    // signedTokenをQRに埋め込む
     pass.setBarcodes({
-      message: rawToken,
+      message: signedToken,
       format: "PKBarcodeFormatQR",
       messageEncoding: "iso-8859-1",
     });
